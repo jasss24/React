@@ -1,0 +1,52 @@
+body {
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #eaeaea;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.theory-space,
+.code-space {
+  width: 45%;
+  background: #0f3460;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  background: #16213e;
+  color: #eaeaea;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background: linear-gradient(135deg, #ff8a00, #da1b60);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
